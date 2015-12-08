@@ -32,7 +32,7 @@ Decoding the QR code gives some base64 text, which can be decoded using python. 
 <br/>
 Unfortuantely, this doesn't work as the flag, so there is more work to do. Downloading the original QR code and looking at it in either a hex editor or notepad++ reveals flag.txt towards the bottom of the file. This suggests that the image also contains a zip file, so changing the extension to .zip and opening it in a program such as 7zip will show flag.txt as its contents.
 
-Trying to open flag.txt promopts the user for a password, and the first thing I tried was the message from the PNG we found earlier: `BE SURE TO DRINK YOUR OVALTINE`. This opens flag.txt and gives the flag.
+Trying to open flag.txt promopts the user for a password, and the first thing I tried was the message from the PNG we found earlier: `BE SURE TO DRINK YOUR OVALTINE!`. This opens flag.txt and gives the flag.
 ### Flag ###
 
     sctf{all_about_the_ctf}
