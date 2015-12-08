@@ -16,5 +16,5 @@
 	* [awe](recon/awe.md)
 * [Reversing](reversing/README.md)
 * [Web Exploitation](web/README.md)
-   * [Obfuscat](web/obfuscat.å)
+   * [Obfuscat](web/obfuscat.md)
 
