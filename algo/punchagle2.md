@@ -68,7 +68,7 @@ After looking through the output, it can be seen that the words hellohello, whic
 
 ### Flag ###
 
-sctf{hellohello}
+    sctf{hellohello}
 
 ### Extra Information ###
 This solution would not have worked if the flag had been across triangles (which will come into play in Punchagle 3), although it could have been modified to work by removing ```result += '\nTriangle: ' + f + '\n'``` from the output.
