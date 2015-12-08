@@ -43,7 +43,7 @@ There are many imaging libraries, but I decided to go with [Pillow](https://pyth
 
 I made this image by copying the symbols out of the triangles so I would have something to match against:
 <br/>
-[punchagle symbols](/algo/punchagle/punchagle_symbols.png)
+[punchagle symbols]: /aglo/punchagle/punchagle_symbols.png  "Punchagle Symbols"
 
 To get the symbols into python, I loaded them as two arrays:
 
