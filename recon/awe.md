@@ -34,8 +34,10 @@ Now for the specific address. We can do an address lookup based on name using [t
 
 To find awe's family members, we can go to his [friends](https://www.facebook.com/aaronweiss74/friends) list on Facebook (which is publically viewable) and search for people whose last name is "Weiss". That gives us "Chas", "Emily", "Jennifer", "Pam", "Isis", "Adam", "Brandon", and "Spencer" Weiss. Browsing through the Facebook profiles of each of these people, we can deduce that "Chas" is awe's father.
 
-"Chas" is short for "Charles." Doing a lookup for "Charles Weiss" in "Chappaqua, NY" on WhitePages,  we find a [result](http://www.whitepages.com/name/Charles-Weiss/Chappaqua-NY/be669m8)! 
+"Chas" is short for "Charles." Doing a lookup for "Charles Weiss" in "Chappaqua, NY" on WhitePages,  we find a [result](http://www.whitepages.com/name/Charles-Weiss/Chappaqua-NY/be669m8). Unfortunately, this fails to be the flag, so now we look for an alternate site for tracking where people live: [FamilyTreeNow](http://www.familytreenow.com/). 
+
+Repeating the previous search on the new site leads us to [Charles F Weiss](http://www.familytreenow.com/record/Yfw0KbbYSVTFB-6PbhYBgA). There are only three results under Current & Past Adresses that are in Chappaqua, and after trying the one on Maple Avenue we've solved it!
 
 ### Flag ###
 
-	101 Rambling Brook Rd, Chappaqua, NY 10514
+	25 Maple Avenue, Chappaqua, NY 10514
