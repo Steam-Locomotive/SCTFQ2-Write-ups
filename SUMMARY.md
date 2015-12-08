@@ -10,6 +10,7 @@
 	* [SID](forensics/SID.md)
 	* [Coin](forensics/coin.md)
 * [Game Exploitation](game/README.md)
+ 	* [Introduction to Colors](pwn/game1.md)
 * [Pwnables](pwn/README.md)
 	* [pwn2](pwn/pwn2.md)
 * [Recon](recon/README.md)
