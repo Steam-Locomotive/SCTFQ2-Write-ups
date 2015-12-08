@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Algorithm](reversing/README.md)
+* [Algorithm](algo/README.md)
    * [Punchagle](algo/punchagle.md)
    * [Punchagle 2](algo/punchagle2.md)
 * [Cryptography](crypto/README.md)
@@ -9,6 +9,7 @@
 * [Game Exploitation](game/README.md)
 * [Pwnables](pwn/README.md)
 * [Recon](recon/README.md)
+* [Reversing](reversing/README.md)
 * [Web Exploitation](web/README.md)
-   * Obfuscat
+   * [Obfuscat](web/obfuscat.å)
 
