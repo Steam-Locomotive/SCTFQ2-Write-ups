@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Algorithm](reversing/README.md)
    * [Punchagle](algo/punchagle.md)
+   * [Punchagle](algo/punchagle2.md)
 * [Cryptography](crypto/README.md)
 * [Forensics](forensics/README.md)
 * [Game Exploitation](game/README.md)
