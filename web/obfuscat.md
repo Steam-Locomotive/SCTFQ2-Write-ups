@@ -141,7 +141,7 @@ one("revers")
 ```
 The function calls `funcs[query2[5].charCodeAt(0) ^ 66]` on each character of our input. Looking at the list of functions in `func`, `func[2]` is most likely the function being called since it returns a character. Thus, `query2[5].charCode(0) ^ 66` must be equal 2 to. Solving for `query2[5]` gives us `@` as the character!
 
-Looking at `func[2]`, we can see it returns either the input character or `3` if the input equals `query2[2]`. This is most likely how our string `revers` has `e` replaced with three. This gives us `query2[2]`!  Finally, the function adds the character 
+Looking at `func[2]`, we can see it returns either the input character or `3` if the input is equal to `query2[2]`. This is most likely how our string `revers` has `e` replaced with three. This gives us `query2[2]`!  Finally, the function adds the character 
 ```js
 n.charAt(query2[6].charCodeAt(0) - query2[7].charCodeAt(0))
 ```
@@ -158,7 +158,7 @@ funcs[query2[8].charCodeAt(1) - 0x72](function(m, n) {
     return m + (funcs[0](n ^ h.words.splice(0, 1) & 0xff));
 }
 ```
-Since we already know the value of `query2[8]` and `q` we can simplify this to:
+Since we already know the value of `query2[8]` we can simplify this to:
 ```js
 funcs[3](function(m, n) {
     return m + (funcs[0](n ^ h.words.splice(0, 1) & 0xff));
@@ -171,7 +171,7 @@ replacing `func[3]` with the actual function yeilds this.
     return m + (funcs[0](n ^ h.words.splice(0, 1) &
     0xff));
 ```
-Another reduce, this time with multiple arguments! If you are unfamiliar with reduce, you can read up about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). Remember `h.words` we used earlier? The numbers, `[108211444, 434422999, -821768299]` will finally come into use here. We first notice that the reduce function performs an operation on a set of 4 integers to create the string `th1s`. The first character, `query2[4]` is used to start the string. That means `query2[4]` must be equal to `t`! 
+Another reduce, this time with more than 2 arguments! If you are unfamiliar with reduce, you can read up about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). Remember `h.words` we used earlier? The numbers, `[108211444, 434422999, -821768299]` will finally come into use here. We first notice that the reduce function performs an operation on a set of 4 integers to create the string `th1s`. The first character, `query2[4]` is used to start the string. That means `query2[4]` must be equal to `t`! 
 
 Next, the characters `h` and `1` are generated from the calculation `funcs[0](n ^ h.words.splice(0, 1)`. Each time this is performed, a number is removed from `h.words`. Finally, the same calculation is run on the last character, `query2[6].charCodeAt(0) * 2`. Since we know what the final character must be, we can construct the equation
 ```
@@ -198,7 +198,7 @@ function threeSolve(guess){
 	return three
 }
 for (var i = 0; i < 255; i++){
-    if (threeSolve(i) == '1'){
+    if (threeSolve(i) == 'str1ng'){
         console.log(i)
     }
 }
