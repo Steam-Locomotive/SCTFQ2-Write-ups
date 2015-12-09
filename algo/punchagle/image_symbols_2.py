@@ -41,20 +41,15 @@ def readTriangleRow(symbols, img, row) :
     for x in range(0, symbolCount) :
         sym = getImageSymbol(symbols, rowSyms.crop((20 * x, 0, 20 * x + 11, 11)))
         if(sym == -1) : tmp += 'x'
-        elif sym == -2 : return "-1"
         else : tmp += str(sym)
     return tmp
-            
-            
+             
 
 def readTriangle(symbols, numerals, img) :
     rows = int(math.ceil((img.height - 40) / 20))
-    if rows == -2 : return ""
     res = ""
     for x in range(1, rows + 1) :
-        strn = readTriangleRow(symbols, img, x)
-        if strn == "-1" : return ""
-        res += strn
+        res += readTriangleRow(symbols, img, x)
     return res
 
 def findSquareEdges(img, tries = 0) :
@@ -91,7 +86,6 @@ for x in range(0, 10) :
     numerals.append(symbolBase.crop((x * 6 + 1 + offset, 11, x * 6 + 6 + offset, 18)))
     
 out = open('symbolsOut3.txt', 'w')
-
 import os
 rootdir = 'fixedImages'
 count = 0

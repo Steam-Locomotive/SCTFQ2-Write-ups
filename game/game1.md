@@ -18,10 +18,15 @@ Figure out how to get out of the red cube to the flag.
 ![Image1](images/game.PNG)
 
 There are 5 ways to solve this problem that I have found. 
+<br/>
 1) Teleport outside of the cube.
+<br/>
 2) Speed through the walls.
+<br/>
 3) Make the walls possible to move over.
+<br/>
 4) Decrypt the flag.
+<br/>
 5) Get the flag from the std::string vector at runtime.
 
 The first possible way is the most straight forward and is likely the way a majority of people solved this. As such I will cover it first. 
