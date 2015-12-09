@@ -20,8 +20,11 @@ And look! Here's a line of the source I managed to get!
 Grow your character bigger or manipulate the check for the size.
 
 Methods:
+<br/>
 1) Manipulate the check for your size.
+<br/>
 2) Change your size (and don't die to the walls).
+<br/>
 3) Decrypt the string.
 
 ### Details ###
