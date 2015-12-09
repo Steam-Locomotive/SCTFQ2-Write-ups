@@ -20,7 +20,7 @@
 	* [ubuntor](recon/ubuntor.md)
 	* [awe](recon/awe.md)
 * [Reversing](reversing/README.md)
-    *[Pizazz](reversing/pizazz.md)
+    * [Pizazz](reversing/pizazz.md)
 * [Web Exploitation](web/README.md)
+   * [The Flag Shop](web/flagshop.md)
    * [Obfuscat](web/obfuscat.md)
-
