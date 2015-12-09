@@ -22,7 +22,7 @@ We are Steam Locomotive, a team of high school students from the [Liberal Arts a
 * Michael Barre - [meeees](https://github.com/meeees)
 * Neil Patil - [patil215](https://github.com/patil215)
 
-During sCTF, we accumulated a total of _____ points and finished in ____ place.
+During sCTF, we accumulated a total of 3030 points and finished in 2nd place.
 
 Our goal is to maintain a comprehensive set of writeups for all the challenges within sCTF. It is a work in progress, so if we haven't posted a writeup  yet, don't worry! All will be added in the coming weeks.
 
