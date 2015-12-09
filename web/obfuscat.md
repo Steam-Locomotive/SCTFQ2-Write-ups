@@ -203,7 +203,7 @@ for (var i = 0; i < 255; i++){
     }
 }
 ```
-which gave the output `83` or `S`. We now have all the characters needed for the flag! If we navigate to [http://obfuscat.problem.sctf.io?flag{S$z$e$P$t$@$s$r$qu}](http://obfuscat.problem.sctf.io?flag{S$z$e$P$t$@$s$r$qu}) we can verify the flag is correct!
+which gave the output `83` or `S`. We now have all the characters needed for the flag! If we navigate to http://obfuscat.problem.sctf.io?flag{S$z$e$P$t$@$s$r$qu}  we can verify the flag is correct!
 ### Flag ###
 
     flag{S$z$e$P$t$@$s$r$qu}
