@@ -45,7 +45,7 @@ Finally click the line number of `$.post("/api/flag/delete", function() {` to se
 
 ![](flagshop/chrome3.JPG)
 
-Now if you run the code it should breakpoint at the call to `/api/flag/delete` instead of running it! Sucess! Reloading the page  gives the flag.
+Now if you click `unlock flag` it should breakpoint the code at the call to `/api/flag/delete` instead of running it! Sucess! Reloading the page  gives the flag.
 
 ### Flag ###
 
