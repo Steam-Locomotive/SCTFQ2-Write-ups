@@ -15,7 +15,7 @@ Game is Windows only. :)
 ### Overview ###
 Figure out how to get out of the red cube to the flag.
 
-![Image1](https://dl.dropboxusercontent.com/u/33547841/sctf/game.PNG)
+![Image1](images/game.PNG)
 
 There are 5 ways to solve this problem that I have found. 
 1) Teleport outside of the cube.
@@ -93,7 +93,7 @@ Alternative methods to solving this will be covered lightly below.
 
 ### Flag ###
 
-![](https://dl.dropboxusercontent.com/u/33547841/sctf/game1flag.PNG)
+![](images/game1flag.PNG)
 
     flag{debugcritical}
 
@@ -115,12 +115,12 @@ loc_4093A0:                             ; CODE XREF: drawfn+97j drawfn+160j
 
 This is the code that messes with the, what I called, danger_walls (really part of the walls structure array) array. This contains something that simply says whether the wall kills you. I changed the left wall to 10 rather than 1 and it does this:
 
-![Walls](https://dl.dropboxusercontent.com/u/33547841/sctf/game1walls.PNG)
+![Walls](images/game1walls.PNG)
 
 Decrypting the flag requires reversing the decryption algo, found in the function called to draw this text. It is much easier to do the next method.
 
 The function for drawing these strings has an array where it stores the values of all the draw strings. This can be found by breakpointing the function for drawing text and grabbing the object pointer the first time it draws text for the map. This object pointer is the pointer to the array of `std::string`s that you can read and use for getting the flag.
 
-![](https://dl.dropboxusercontent.com/u/33547841/sctf/game1arr.PNG)
+![](images/game1arr.PNG)
 
 Note how its using short string optimization and the text length is held in the structure. Clearly an `std::string`. Also the game 2 in there is not the most recent game 2.
