@@ -246,7 +246,7 @@ def getImageSymbol(syms, img) :
 
 To accomadate blanks with this new matching system, I had to update my symbol table to have a blank tile as well:
 <br/>
-![punchagle 3 symbols](/algo/punchagle/punchagle3_symbols)
+![punchagle 3 symbols](/algo/punchagle/punchagle3_symbols.png)
 
 Fortunately, I was able to use the same `readTriangleRow` function as before, but I did have to make a minor modification to `readTriangle`. The numbers were by far more messed up than the symbols after the rotation, so instead I used some basic math to determine how many rows each triangle should have:
 
