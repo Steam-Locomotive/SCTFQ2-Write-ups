@@ -21,7 +21,7 @@ Imaging libraries REALLY ARE **NECESSARY** if you haven't figured that out yet!
 
 ### Overview ###
 
-I'm assuming you have read the solution to Punchagle and Punchagle 2, if not they can found [here](/algo/punchagle.md) and [here](/akgi/punchagle.md).
+I'm assuming you have read the solution to Punchagle and Punchagle 2, if not they can found [here](/algo/punchagle.md) and [here](/algo/punchagle2.md).
 
 Rotate all the triangles so that they are readable. Read the symbols off the images as their decimal values or a marker for blanks and then locate the flag in the output, probably with the aid of an imaging library (as indicated by the hint). This is the same process as one and two, but with accounting for rotation.
 
