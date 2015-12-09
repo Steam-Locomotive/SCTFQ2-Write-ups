@@ -16,13 +16,9 @@ Game is Windows only. :)
 Literally move north.
 
 Methods to solve:
-<br/>
 1) Go north fast.
-<br/>
 2) Move your camera to the right position ( or just fast ).
-<br/>
 3) Decrypt the string.
-<br/>
 4) Find the flag in the std::string array.
 
 ### Details ###

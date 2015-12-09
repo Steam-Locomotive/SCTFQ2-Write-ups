@@ -44,7 +44,7 @@ def g(x) :
     b = g(x - 2)
     res = (a + b) * (a + b)
     return res
-    
+
 def w(x) :
     print x
     if x == 0 : return 0
@@ -53,10 +53,10 @@ def w(x) :
     b = w(x - 2)
     res = a * a + b * b
     return res
-    
+
 def f(x) :
     return g(x) - w(x)
-    
+
 def sum_digits(n):
     s = 0
     count = 0

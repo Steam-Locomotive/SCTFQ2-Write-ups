@@ -16,11 +16,8 @@ Game is Windows only. :)
 Make the time variable go negative.
 
 Methods:
-<br/>
 1) Patch the check.
-<br/>
 2) Patch the point when variable thats checked it set.
-<br/>
 3) Decrypt the string.
 
 ### Details ###
