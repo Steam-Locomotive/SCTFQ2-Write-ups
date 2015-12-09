@@ -1,6 +1,6 @@
 ## Punchagle 2 - 170 (Algo) ##
 
-#### Write-up by Generic Nickname
+#### Write-up by GenericNickname
 
 Created: 2015-12-07
 

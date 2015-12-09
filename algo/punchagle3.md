@@ -21,7 +21,7 @@ Imaging libraries REALLY ARE **NECESSARY** if you haven't figured that out yet!
 
 ### Overview ###
 
-I'm assuming you have read the solution to Punchagle and Punchagle 2, if not they can found [here](/algo/punchagle.md) and [here](/akgi/punchagle.md).
+I'm assuming you have read the solution to Punchagle and Punchagle 2, if not they can found [here](/algo/punchagle.md) and [here](/algo/punchagle2.md).
 
 Rotate all the triangles so that they are readable. Read the symbols off the images as their decimal values or a marker for blanks and then locate the flag in the output, probably with the aid of an imaging library (as indicated by the hint). This is the same process as one and two, but with accounting for rotation.
 
@@ -246,7 +246,7 @@ def getImageSymbol(syms, img) :
 
 To accomadate blanks with this new matching system, I had to update my symbol table to have a blank tile as well:
 <br/>
-![punchagle 3 symbols](/algo/punchagle/punchagle3_symbols)
+![punchagle 3 symbols](/algo/punchagle/punchagle3_symbols.png)
 
 Fortunately, I was able to use the same `readTriangleRow` function as before, but I did have to make a minor modification to `readTriangle`. The numbers were by far more messed up than the symbols after the rotation, so instead I used some basic math to determine how many rows each triangle should have:
 
