@@ -1,4 +1,4 @@
-## Punchagle 2 - 170 (Algo) ##
+## Punchagle 2 - 170 (Algorithmic) ##
 
 #### Write-up by GenericNickname
 
