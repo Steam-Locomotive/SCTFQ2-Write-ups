@@ -83,7 +83,7 @@ print len(digits)
 print sum(digits)
 ```
 
-The sage script, which can be downloaded [here](/algo/fibonacci_not/fib_not.sage) finished the calculations in less than a minute. The script told us that the number had `98574916` digits which summed to `443589491`, which is correct!
+The sage script, which can be downloaded [here](/algo/fibonacci-not/fib_not.sage) finished the calculations in less than a minute. The script told us that the number had `98574916` digits which summed to `443589491`, which is correct!
 
 ### Flag ###
 
