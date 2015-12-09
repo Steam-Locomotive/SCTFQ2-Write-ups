@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Algorithm](algo/README.md)
+  * [Fibonacci_Not!](algo/fib.md)
    * [Punchagle](algo/punchagle.md)
    * [Punchagle 2](algo/punchagle2.md)
    * [Punchagle 3](algo/punchagle3.md)
