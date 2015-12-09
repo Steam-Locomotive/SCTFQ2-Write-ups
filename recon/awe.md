@@ -36,7 +36,7 @@ To find awe's family members, we can go to his [friends](https://www.facebook.co
 
 "Chas" is short for "Charles." Doing a lookup for "Charles Weiss" in "Chappaqua, NY" on WhitePages,  we find a [result](http://www.whitepages.com/name/Charles-Weiss/Chappaqua-NY/be669m8). Unfortunately, this fails to be the flag, so now we look for an alternate site for tracking where people live: [FamilyTreeNow](http://www.familytreenow.com/). 
 
-Repeating the previous search on the new site leads us to [Charles F Weiss](http://www.familytreenow.com/record/Yfw0KbbYSVTFB-6PbhYBgA). There are only three results under Current & Past Adresses that are in Chappaqua, and after trying the one on Maple Avenue we've solved it!
+Repeating the previous search on the new site leads us to [Charles F Weiss](http://www.familytreenow.com/record/Yfw0KbbYSVTFB-6PbhYBgA). There are only three results under Current & Past Adresses that are in Chappaqua, and after trying the one on Maple Avenue, we've solved it!
 
 ### Flag ###
 
