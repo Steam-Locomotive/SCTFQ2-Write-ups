@@ -10,7 +10,7 @@
 	* [SID](forensics/SID.md)
 	* [Coin](forensics/coin.md)
 * [Game Exploitation](game/README.md)
- 	* [Introduction to Colors](game/game1.md)
+    * [Introduction to Colors](game/game1.md)
     * [Moving North](game/game2.md)
     * [Size of a Giant](game/game3.md)
     * [Negative Time](game/game4.md)
