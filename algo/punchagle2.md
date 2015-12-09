@@ -71,4 +71,4 @@ After looking through the output, it can be seen that the words hellohello, whic
     sctf{hellohello}
 
 ### Extra Information ###
-This solution would not have worked if the flag had been across triangles (which will come into play in Punchagle 3), although it could have been modified to work by removing ```result += '\nTriangle: ' + f + '\n'``` from the output.
+This solution would not have worked if the flag had been across triangles, although it could have been modified to work by removing ```result += '\nTriangle: ' + f + '\n'``` from the output and ensuring that the file system was being read in the correct order.
