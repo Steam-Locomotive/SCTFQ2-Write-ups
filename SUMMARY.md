@@ -25,6 +25,7 @@
 	* [ubuntor](recon/ubuntor.md)
 	* [adunna](recon/adunna.md)
 	* [awe](recon/awe.md)
+	* [Val, V, nicebowlofsoup](recon/valvnicebowlofsoup.md)
 * [Reversing](reversing/README.md)
     * [Pizazz](reversing/pizazz.md)
 * [Web Exploitation](web/README.md)
