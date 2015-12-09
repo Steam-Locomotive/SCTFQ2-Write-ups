@@ -26,4 +26,4 @@ During sCTF, we accumulated a total of 3030 points and finished in 2nd place.
 
 Our goal is to maintain a comprehensive set of writeups for all the challenges within sCTF. It is a work in progress, so if we haven't posted a writeup  yet, don't worry! All will be added in the coming weeks.
 
-If you found these writeups helpful, be sure to star the repository on ___!
+If you found these writeups helpful, be sure to star the repository on [Github](https://github.com/Steam-Locomotive/SCTFQ2-Writeups/)!
