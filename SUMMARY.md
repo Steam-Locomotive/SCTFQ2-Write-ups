@@ -23,4 +23,5 @@
     * [Pizazz](reversing/pizazz.md)
 * [Web Exploitation](web/README.md)
    * [The Flag Shop](web/flagshop.md)
+   * [The Flag Shop: Part 2](web/flagshop2.md)
    * [Obfuscat](web/obfuscat.md)
