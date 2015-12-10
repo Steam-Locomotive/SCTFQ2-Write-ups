@@ -21,7 +21,7 @@ Imaging libraries are necessary if you haven't figured that out already.
 
 ### Overview ###
 
-I'm assuming you have read the solution to Punchagle, if not it can be found [here](/algo/punchagle.md).
+I'm assuming you have read the solution to Punchagle, if not it can be found [here](punchagle.md).
 
 Read the symbols off the images as their decimal values or a marker for blanks and then locate the flag in the output, probably with the aid of an imaging library (as indicated by the hint). This is the same process as one, but with accounting for blanks.
 

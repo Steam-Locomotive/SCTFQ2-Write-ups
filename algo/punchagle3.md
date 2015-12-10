@@ -103,7 +103,7 @@ def getQuadrant(c1) :
     else :
         if c1[1] > 0 : return 2
         else : return 3
-        
+
 def getPointToRotate(c1, c2, center) :
     c1 = (c1[0] - center[0], (test.height - c1[1]) - center[1])
     c2 = (c2[0] - center[0], (test.height - c2[1]) - center[1])
@@ -177,11 +177,11 @@ and then I used Pillow's rotate function to rotate the images and save them to a
         newImg = test.rotate(math.ceil(toRotate))
         newImg.save(os.path.join(fixeddir, f))
 ```
-The full code for the rotation can be downloaded [here](/algo/punchagle/rotate_triangles.py).
+The full code for the rotation can be downloaded [here](punchagle/rotate_triangles.py).
 
 This code doesn't work perfectly, as some of the images were off by a few degrees (this was particularly bad on smaller triangles), and it also had some issues dealing with triangles that had already been correctly oriented. Some of these issues we fixed by hand, and others we ignored and hoped wouldn't hinder us.
 
-Now that I had correctly oriented triangles (mostly), I had to read the symbols off of them. Unfortunately, the old code from Punchagle and Punchagle 2 will not work without some modifications, because the rotation messed up the numbers and symbols. 
+Now that I had correctly oriented triangles (mostly), I had to read the symbols off of them. Unfortunately, the old code from Punchagle and Punchagle 2 will not work without some modifications, because the rotation messed up the numbers and symbols.
 
 The first step was to get rid of the black borders that all of the images had due to their canceled out rotation, and in the function I wrote for doing so, I also allowed it to try to correct minor imperfections in the initial rotation code:
 ```python
@@ -218,14 +218,14 @@ from itertools import izip
 def diffImages (i1, i2) :
     assert i1.mode == i2.mode, "Different kinds of images."
     assert i1.size == i2.size, "Different sizes."
-     
+
     pairs = izip(i1.getdata(), i2.getdata())
     if len(i1.getbands()) == 1:
         # for gray-scale jpegs
         dif = sum(abs(p1-p2) for p1,p2 in pairs)
     else:
         dif = sum(abs(c1-c2) for p1,p2 in pairs for c1,c2 in zip(p1,p2))
-     
+
     ncomponents = i1.size[0] * i1.size[1] * 3
     perc = (dif / 255.0 * 100) / ncomponents
     return perc
@@ -246,7 +246,7 @@ def getImageSymbol(syms, img) :
 
 To accomadate blanks with this new matching system, I had to update my symbol table to have a blank tile as well:
 <br/>
-![punchagle 3 symbols](/algo/punchagle/punchagle3_symbols.png)
+![punchagle 3 symbols](punchagle/punchagle3_symbols.png)
 
 Fortunately, I was able to use the same `readTriangleRow` function as before, but I did have to make a minor modification to `readTriangle`. The numbers were by far more messed up than the symbols after the rotation, so instead I used some basic math to determine how many rows each triangle should have:
 
@@ -287,9 +287,9 @@ out.close()
 
 The full code for reading the triangles can be downloaded [here](punchagle/image_symbols_2.py).
 
-Since I knew that 3, 4, 8, and 9 were all omitted from the file and replaced by x's, i searhced for `115xx11610212x` in the output, but that was unsucessful. However, `15xx11610212x` did show up, and a `125` could be seen later in the same triangle, so I figured it was the flag. 
+Since I knew that 3, 4, 8, and 9 were all omitted from the file and replaced by x's, i searhced for `115xx11610212x` in the output, but that was unsucessful. However, `15xx11610212x` did show up, and a `125` could be seen later in the same triangle, so I figured it was the flag.
 
-This was the output: `15xx11610212x11511611111211610x10111510111211x111xx11511210x115125`. It was then that I realized that this flag must have been slightly across triangles, with the missing open circle for the first `1` of `115` in the previous triangle. Because the x's were more spread out in this flag, it was easier to decode by hand, so I didn't bother to use a brute force method as I did for Punchagle 2. 
+This was the output: `15xx11610212x11511611111211610x10111510111211x111xx11511210x115125`. It was then that I realized that this flag must have been slightly across triangles, with the missing open circle for the first `1` of `115` in the previous triangle. Because the x's were more spread out in this flag, it was easier to decode by hand, so I didn't bother to use a brute force method as I did for Punchagle 2.
 
 The finals numbers were `1159911610212311511611111211610410111510111211411198115112108115125`, or `sctf{stoptheseprobsplease}` when turned into ASCII.
 ### Flag ###
