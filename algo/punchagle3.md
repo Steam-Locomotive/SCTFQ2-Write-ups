@@ -21,7 +21,7 @@ Imaging libraries REALLY ARE **NECESSARY** if you haven't figured that out yet!
 
 ### Overview ###
 
-I'm assuming you have read the solution to Punchagle and Punchagle 2, if not they can found [here](/algo/punchagle.md) and [here](/algo/punchagle2.md).
+I'm assuming you have read the solution to Punchagle and Punchagle 2, if not they can found [here](punchagle.md) and [here](punchagle2.md).
 
 Rotate all the triangles so that they are readable. Read the symbols off the images as their decimal values or a marker for blanks and then locate the flag in the output, probably with the aid of an imaging library (as indicated by the hint). This is the same process as one and two, but with accounting for rotation.
 
@@ -285,7 +285,7 @@ out.write(result)
 out.close()
 ```
 
-The full code for reading the triangles can be downloaded [here](/algo/punchagle/image_symbols_2.py).
+The full code for reading the triangles can be downloaded [here](punchagle/image_symbols_2.py).
 
 Since I knew that 3, 4, 8, and 9 were all omitted from the file and replaced by x's, i searhced for `115xx11610212x` in the output, but that was unsucessful. However, `15xx11610212x` did show up, and a `125` could be seen later in the same triangle, so I figured it was the flag. 
 
