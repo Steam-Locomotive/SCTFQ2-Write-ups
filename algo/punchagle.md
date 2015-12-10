@@ -43,7 +43,7 @@ There are many imaging libraries, but I decided to go with [Pillow](https://pyth
 
 I made this image by copying the symbols out of the triangles so I would have something to match against:
 <br/>
-![punchagle symbols](/algo/punchagle/punchagle_symbols.png)
+![punchagle symbols](punchagle/punchagle_symbols.png)
 
 To get the symbols into python, I loaded them as two arrays:
 
@@ -146,7 +146,7 @@ out.write(result)
 out.close()
 ```
 
-The entire program can be downloaded here: [image_symbols.py](/algo/punchagle/image_symbols.py)
+The entire program can be downloaded here: [image_symbols.py](punchagle/image_symbols.py)
 
 Now that I had symbolOutput.txt, I could search for the ASCII values that should show up where the flag is. The problem says that the flag starts with sctf{ so I looked for ```11599116102123``` in the output and identified the end by ```125```, which is }. The entire string of digits was ```1159911610212311211410111611612199111111108114105116101125```, which, when turned into ASCII yields the flag: ```sctf{prettycoolrite}```
 
