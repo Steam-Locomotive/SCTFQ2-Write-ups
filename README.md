@@ -14,7 +14,7 @@ __/ =| o |=-~~\\  /~~\\  /~~\\  /~~\\ ____Y___________|__  |____________________
   \\_/      \\O=====O=====O=====O_/      \\_/                  \\_/   \\_/    \\_/   \\_/
 
 </pre>
-<marquee>
+</marquee>
 
 CTFs (Capture-the-Flag) are competitions where contestants must solve a series of challenges, each of which contains a flag (typically a hidden string of text). The challenges range from web exploits to reverse engineering to cryptography. sCTF is one such competition created by sCTF, an organization dedicated to creating and running CTF problems.
 
