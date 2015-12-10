@@ -1,7 +1,7 @@
 # SCTF-Writeups - Q2 - Broken Bytes
 
 <marquee scrollamount="10">
-<pre style="background-color:white">
+<pre style="background-color:white; font-size:12px">
       ====        ________                ___________
   _D _|  |_______/        \\__I_I_____===__|_________|
    |(_)---  |   H\\________/ |   |        =|___ ___|           _________________
