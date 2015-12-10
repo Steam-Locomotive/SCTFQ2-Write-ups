@@ -23,8 +23,8 @@ We are Steam Locomotive, a team of high school students from the [Liberal Arts a
 * Michael Barre - [meeees](https://github.com/meeees)
 * Ashwin Gupta - [Shwinn](https://github.com/Shwinn)
 * Neil Patil - [patil215](https://github.com/patil215)
-* Jonathan S
 * John - [Jumboperson](https://github.com/jumboperson)
+* Jonathan S
 
 During sCTF, we accumulated a total of 3030 points and finished in 1st place.
 
