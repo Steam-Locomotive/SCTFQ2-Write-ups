@@ -20,10 +20,11 @@ CTFs (Capture-the-Flag) are competitions where contestants must solve a series o
 
 We are Steam Locomotive, a team of high school students from the [Liberal Arts and Science Academy in Austin, TX](http://www.lasahighschool.org/). We are:
 * Ehsan Asdar - [Oksisane](https://github.com/oksisane)
-* John - [Jumboperson](https://github.com/jumboperson)
-* Ashwin Gupta - [Shwinn](https://github.com/Shwinn)
 * Michael Barre - [meeees](https://github.com/meeees)
+* Ashwin Gupta - [Shwinn](https://github.com/Shwinn)
 * Neil Patil - [patil215](https://github.com/patil215)
+* Jonathan S
+* John - [Jumboperson](https://github.com/jumboperson)
 
 During sCTF, we accumulated a total of 3030 points and finished in 1st place.
 
