@@ -1,4 +1,4 @@
-## Ciphered - 5 (Cryptography) ##
+## Ciphered - 40 (Cryptography) ##
 
 #### Writeup by Oksisane
 
