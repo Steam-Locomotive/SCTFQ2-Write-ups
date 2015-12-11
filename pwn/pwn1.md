@@ -1,4 +1,4 @@
-## pwn1 - 40 (pwn) ##
+## pwn1 - 40 (Pwning) ##
 #### Writeup by r3ndom_ #####
 Created: 2015-12-8
 
