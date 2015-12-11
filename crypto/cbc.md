@@ -1,4 +1,4 @@
-## Ceebeecee - 190 (Crypto) ##
+## Ceebeecee - 80 (Crypto) ##
 #### Writeup by r3ndom_ #####
 Created: 2015-12-8
 
