@@ -609,8 +609,7 @@ After all the stadard stuff (stack check, heap check, blackhole and CAF stuff, a
 Here, following that patterns established previously, we are calling the function `rlz`, providing one argument, the pointer to `[edi-3]`. However, we don't know for
 certain how many arguments `rlz` expects. It looks like 1, since we only provide one, but it would be good to check. The answer comes right before the code of
 `rlz_info`. GHC stores [various pieces][Tables] of information about a function right next to the code, including the arity. The 16 bit integer 10 bytes before the code
-holds this number (I think - it might be the 8 bit integer 9 bytes before the code or this might just be coincidence), and sure enough, 10 bytes before `rlz_info`, we
-see a 1.
+[holds this number][InfoTables], and sure enough, 10 bytes before `rlz_info`, we see a 1.
 
 Now we look at the argument passed to `rlz`. This, as previously done with functions, is misaligned, because it is pointing at an already evaluated expression. This
 time, however, we are looking at a data structure. GHC represents [algebraic data types][ADT] very simply, storing one word that contains a constructor, to distinguish
@@ -631,6 +630,7 @@ sBr = rlz 120
 
 [ADT]: https://en.wikipedia.org/wiki/Algebraic_data_type
 [GMP]: https://gmplib.org/
+[InfoTables]: https://ghc.haskell.org/trac/ghc/browser/ghc/includes/rts/storage/InfoTables.h#L229
 [Integer]: https://hackage.haskell.org/package/integer-gmp-1.0.0.0/docs/src/GHC.Integer.Type.html#Integer
 [Tables]: https://ghc.haskell.org/trac/ghc/wiki/Commentary/Rts/Storage/HeapObjects
 
