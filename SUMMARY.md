@@ -32,6 +32,7 @@
    * [Val, V, nicebowlofsoup](recon/valvnicebowlofsoup.md)
 * [Reversing](reversing/README.md)
    * [Pizazz](reversing/pizazz.md)
+   * [λ1](reversing/lambda1.md)
 * [Web Exploitation](web/README.md)
    * [The Flag Shop](web/flagshop.md)
    * [The Flag Shop: Part 2](web/flagshop2.md)
