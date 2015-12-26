@@ -1,4 +1,4 @@
-# SCTF-Writeups - Q2 - Broken Bytes
+# SCTF-Write-ups - Q2 - Broken Bytes
 
 <marquee scrollamount="10">
 <pre style="background-color:white; font-size:12px">
@@ -28,6 +28,6 @@ We are Steam Locomotive, a team of high school students from the [Liberal Arts a
 
 During sCTF, we accumulated a total of 3030 points and finished in 1st place.
 
-Our goal is to maintain a comprehensive set of writeups for all the challenges within sCTF. It is a work in progress, so if we haven't posted a writeup  yet, don't worry! All will be added in the coming weeks.
+Our goal is to maintain a comprehensive set of write-ups for all the challenges within sCTF. It is a work in progress, so if we haven't posted a writeup  yet, don't worry! All will be added in the coming weeks.
 
-If you found these writeups helpful, be sure to star the repository on [Github](https://github.com/Steam-Locomotive/SCTFQ2-Writeups/)!
+If you found these write-ups helpful, be sure to star the repository on [Github](https://github.com/Steam-Locomotive/SCTFQ2-Write-ups/)!
